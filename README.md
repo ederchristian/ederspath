@@ -1,6 +1,6 @@
-# WheyDev
+# Eder's Path
 
-WheyDev is a website created to help people working in programming, or enthusiasts, get stronger by building a more solid tech foundation.
+This is my learn in public path.
 
 ## Stack
 
@@ -12,7 +12,7 @@ WheyDev is a website created to help people working in programming, or enthusias
 **Fuzzy Search** - [FuseJS](https://fusejs.io/)  
 **Ícones** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
-**Deploy** - [Vercel](https://vercel.com/)  
+**Deploy** - [Vercel](https://vercel.com/)
 
 ## Running Locally
 
@@ -42,7 +42,7 @@ npm run dev
 
 ## License
 
-MIT License, Copyright © 2022
+MIT License, Copyright © 2024
 
 ## Astro Template
 

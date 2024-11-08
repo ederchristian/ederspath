@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .stroke-1-2 {
+    stroke-width: 1.2;
+  }
+}
+
 @layer base {
   :root,
   html[data-theme="light"] {
@@ -55,9 +61,13 @@
   }
 
   svg.icon-tabler {
-    @apply w-6 h-6 scale-125 sm:scale-110 opacity-90 
-    inline-block fill-transparent stroke-2 stroke-current 
+    @apply w-8 h-8 scale-125 sm:scale-110 opacity-90 
+    inline-block fill-transparent stroke-1-2 stroke-current 
     group-hover:fill-transparent;
+  }
+
+  svg.first-icon {
+    @apply mt-0.5 mr-1 w-5 h-5;
   }
 
   .prose {
