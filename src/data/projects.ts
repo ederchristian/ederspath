@@ -20,7 +20,7 @@ const projects: Project[] = [
   {
     title: "Eder's Path Channel",
     techs: ["YouTube"],
-    link: "https://ederspath.substack.com",
+    link: "https://youtube.com/@ederspath",
   },
   {
     title: "Path in Focus",
