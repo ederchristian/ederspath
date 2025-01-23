@@ -1,16 +1,13 @@
 # Eder's Path
 
-This is my learn in public path.
+Chasing progress, embracing the process. Made in Brazil.
 
 ## Stack
 
 **Framework** - [Astro](https://astro.build/)  
 **Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
 **Component Framework** - [ReactJS](https://reactjs.org/)  
-**Estilos** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma](https://figma.com)  
-**Fuzzy Search** - [FuseJS](https://fusejs.io/)  
-**Ícones** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
+**CSSs** - [TailwindCSS](https://tailwindcss.com/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
 **Deploy** - [Vercel](https://vercel.com/)
 
@@ -42,8 +39,8 @@ npm run dev
 
 ## License
 
-MIT License, Copyright © 2024
+MIT License, Copyright © 2023
 
 ## Astro Template
 
-[Astro Paper](https://github.com/satnaing/astro-paper)
+[Astro - Portfolio Template](https://astro.build/themes/details/maewolff-portfolio-template/)
