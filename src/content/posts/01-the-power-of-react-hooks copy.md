@@ -1,54 +1,17 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
-isPublish: false
+title: "Eight Years from a Small Town to Where I Am"
+publishedAt: 2025-03-17
+description: "What 8 Years in Tech Taught Me So Far"
+slug: "eight-years-from-a-small-town-to-where-i-am"
+isPublish: true
 ---
 
-## Vocesque meum remis est neque Neptunus monte
+Eight years ago, I didn’t know tech was for me. I was in a small town in Brazil, no computer, just dreams. Now, after 5 years at a startup and 3 years coding for a US company, I’m starting something new.
 
-Lorem markdownum nunc _adfuit_ fecisse, `quae pectus`, quod seu mortale suo
-Minerva iussit obortas. Favilla victa; alarum signis barbara, nec _sibi dentes_
-hostes?
+I grew up in a poor family, public schools (not much to work with). Education in Brazil isn’t perfect, but it gave me a shot. I’ve got a technical course in Computing, a degree in IT Management, and a postgraduate in Web Projects. A lot of what I know came from teaching myself too—like learning English from scratch online. Moved to São Paulo in 2017 with a junior front-end job and almost no money. Spent 5 years at StartSe, an education startup—started as a dev, became a partner, worked sales, marketing, even video editing. Hit over 70 tech events. Then, 3 years ago, Automatiq in New York called—the technology leader within ticket resale, providing resellers of all sizes pricing automation, automated distribution, data analytics, order processing, and consignment.
 
-## Corporibus Leucon
+I started with computer support, moved to WordPress at a small agency, picked up HTML, CSS, React, Next.js. Now it’s React, TypeScript mostly. Learning some backend with Elixir now too. My foundation isn’t perfect. I’ve learned what I needed when I needed it. Good people helped me get here, and I’m thankful for that every day.
 
-Quaeque viridis, pariter possit. Velatus Thetis, ab Buten, in et ite positis
-annis ut Troasque altaque. Ancaeus convertit conscia Phinea petis. Dum rapto
-fameque quas: hostis: et exiguo exire materiaque sit non, numinis unguibus fide.
-Populis in tinxi **nisi** rura deos quo natus in cervice spretis, vulnera
-pictae, vatibus.
+Eder’s Path is where I’m at now, sharing what I’ve picked up in 8 years, tech and life. I’m not done growing. Been coding for a while, but I want my skills stronger—front-end, back-end, tools, whatever comes. It’s not just work. I got sedentary, then flipped it after COVID with gym, better food, better mental health. Slipped lately, but I’ll get back. This is me, a Brazilian dev with Asperger’s, putting it out there. Real stuff, no filter.
 
-> Illi tenebras si vultum suae. Matrem iam: iniqua adire, tetigere meque,
-> cessant, gerebat.
-
-## Montes ignarus precor rogabam primus ridet sanguine
-
-In vir indefessus et patrios veniam. Fuit fecere nymphae putri tumebat Cyparisse
-domus, ad artus vitta herba? Et gaudet pressum aeterna animam. Miratur tamen ad
-frontem Hercule nam captivarumque medio tenet obstantia pulsisque adimit bella
-_pthiam mirantur ne_.
-
-> Lacertis et nomenque oracla exstabat: genitor nitor! Fluctus habes extinctum.
-> Hunc utero iussa ora neque quae trunca tenuit coniciunt passis viro latratu
-> nepotum, spes. Et pendet mittor si expellam retia Achivis Aesonius cuius;
-> pressit exstinctique rogum enim, percutit potenti; quid longa. Nostra animaque
-> genetrice viae, quam virus sermone in videri.
-
-## Rapit harundine vana
-
-Noctis et et carpis corpus amplexus; imagine indignanda pedum sospes; cornua
-super **et simus**. Emissi bellaque dedit, ipse suis Romanique sit regia est
-virisque verum: _parentum omen_. Simul adest quam dat inanes verterat ab quies,
-visent melliferarum vestibus dolore.
-
-Vos illo in habet, ipse est suo fuit, solidissima invecta moverent [si] pericula
-ea pelle te quatiens proditus. Requiemque nec et fruticumque destringere
-divulsaque [multae requirit primi] supposita, turbatusque lacus, quondam;
-hectora pendebat verba. Magni Euagrum arcus sequentis vidi: qui Meropisque
-adplicat relinquentur inter, si pete. Magna constitit ore rediit et parentis
-pomaria lumina seque aura.
-
-[multae requirit primi]: http://heu.io/
-[si]: http://infelixlucina.net/mutati
+I’ll write weekly: tech lessons, life lessons, whatever hits me. If you’re into building something too, stay with me. What's one thing you want to learn or fix? Tell me on X (<a href="https://x.com/ederspath" target="_blank" rel="noopener noreferrer">@ederspath</a>). I’d like to know.
