@@ -141,12 +141,47 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"01-the-power-of-react-hooks copy.md": {
-	id: "01-the-power-of-react-hooks copy.md";
-  slug: "eight-years-from-a-small-town-to-where-i-am";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+"01-eight-years-from-a-small-town-to-where-i-am.md": {
+	id: "01-eight-years-from-a-small-town-to-where-i-am.md";
+	slug: "eight-years-from-a-small-town-to-where-i-am";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"02-ramping-in-a-new-company-as-a-developera.md": {
+	id: "02-ramping-in-a-new-company-as-a-developera.md";
+	slug: "ramping-in-a-new-company-as-a-developer";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"03-how-to-ask-for-feedback.md": {
+	id: "03-how-to-ask-for-feedback.md";
+	slug: "how-to-ask-for-feedback";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"04-how-to-increase-opportunities.md": {
+	id: "04-how-to-increase-opportunities.md";
+	slug: "how-to-increase-opportunities";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"05-preparing-for-promotions.md": {
+	id: "05-preparing-for-promotions.md";
+	slug: "preparing-for-promotions";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"06-what-is-quality-code.md": {
+	id: "06-what-is-quality-code.md";
+	slug: "what-is-quality-code";
+	body: string;
+	collection: "posts";
+	data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 
