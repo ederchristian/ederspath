@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-open-sans)", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        lightGreenBrand: "#a4ea4a",
+      },
     },
   },
 };
