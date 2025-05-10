@@ -15,7 +15,7 @@ const presentation: Presentation = {
   mail: "ederspath+website@gmail.com",
   title: "Hey, welcome to Eder's Path.",
   // profile: "/profile.webp",
-  description: "Chasing progress, embracing the process. Made in Brazil.",
+  description: "Chasing progress, embracing the process.",
   socials: [
     {
       label: "YouTube",

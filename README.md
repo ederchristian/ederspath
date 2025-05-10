@@ -1,14 +1,14 @@
 # Eder's Path
 
-Chasing progress, embracing the process. Made in Brazil.
+Chasing progress, embracing the process.
 
 ## Stack
 
-**Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Component Framework** - [ReactJS](https://reactjs.org/)  
-**CSSs** - [TailwindCSS](https://tailwindcss.com/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
+**Framework** - [Astro](https://astro.build/)
+**Type Checking** - [TypeScript](https://www.typescriptlang.org/)
+**Component Framework** - [ReactJS](https://reactjs.org/)
+**CSSs** - [TailwindCSS](https://tailwindcss.com/)
+**Code Formatting** - [Prettier](https://prettier.io/)
 **Deploy** - [Vercel](https://vercel.com/)
 
 ## Running Locally
