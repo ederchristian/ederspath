@@ -1,5 +1,6 @@
-.post p {
-  @apply leading-7;
+.post p,
+article p {
+  @apply text-[0.9375rem] leading-7;
 }
 
 .post code {
@@ -22,14 +23,27 @@
   @apply text-neutral-100 underline;
 }
 
-.post ul {
-  @apply list-disc;
+.post ul,
+ul.about {
+  @apply list-disc text-[0.9375rem];
+}
+
+.post ul li ul {
+  @apply pt-1;
+}
+
+.post ul li ul li {
+  @apply pt-1;
+}
+
+.post li,
+.about li {
+  @apply ml-5 pb-2;
 }
 
 .post blockquote {
   @apply flex flex-row gap-2 before:block before:h-auto before:w-1 before:max-w-[1px] before:bg-lightGreenBrand before:content-[''];
 }
-
 
 .post pre {
   @apply p-4;
