@@ -4,13 +4,15 @@ import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
 
 const posts = (await getCollection("posts"))
-  .filter((post) => 
-    post.data.isPublish && 
-    !post.data.isDraft && 
-    post.data.publishedAt <= new Date()
+  .filter(
+    post =>
+      post.data.isPublish &&
+      !post.data.isDraft &&
+      post.data.publishedAt <= new Date()
   )
-  .sort((first, second) => 
-    second.data.publishedAt.getTime() - first.data.publishedAt.getTime()
+  .sort(
+    (first, second) =>
+      second.data.publishedAt.getTime() - first.data.publishedAt.getTime()
   );
 ---
 
@@ -20,7 +22,7 @@ const posts = (await getCollection("posts"))
 
     <article class="flex flex-col gap-4">
       {
-        posts.map((post) => (
+        posts.map(post => (
           <a
             class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
             href={`/posts/${post.slug}`}
