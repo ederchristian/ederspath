@@ -1,0 +1,108 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import SocialLinks from "@/components/SocialLinks.astro";
+import Link from "@/components/shared/Link.astro";
+
+import presentation from "@/data/presentation";
+---
+
+<Layout>
+  <main class="flex flex-col gap-20">
+    <article class="flex flex-col gap-4 md:justify-end">
+      <div class="flex flex-col gap-3 border-b border-neutral-700 pb-4">
+        <h1 class="text-2xl text-neutral-100 md:text-3xl">Eder Christian</h1>
+
+        <h2 class="text-lg">
+          Developer, content creator, writer. I'm more than just one attribute.
+        </h2>
+      </div>
+
+      <p class="w-auto max-w-[60ch]">
+        I'm Eder and I'm from Lorena, a small city in the State of Sao Paulo,
+        Brazil.
+      </p>
+
+      <p class="w-auto max-w-[60ch]">
+        I've been curious about computers since I was a kid. When I was 17, I
+        got a certificate in technical computing. Three years later, I went to a
+        public college to study Information Technology Management.
+      </p>
+
+      <p class="w-auto max-w-[60ch]">
+        Up until this point, we didn't even have a computer at home. My first
+        computer was an old and simple PC that I got from a City Hall project.
+        Three years later, I could finally afford a MacBook Air — it was used
+        but it made me fall in love with Apple products and that's when I knew I
+        wanted to learn how to code. At first, considered Swift or Objective-C,
+        but after some research, I decided to go with web development first and
+        I liked the front-end area.
+      </p>
+
+      <p class="w-auto max-w-[60ch]">
+        In 2015, I got a post-degree certificate in Web Applications
+        Development. I would say this is when my career really started, even
+        though I had no experience or knowledge about programming.
+      </p>
+
+      <p class="w-auto max-w-[60ch]">
+        The following 5 years were full of new opportunities:
+      </p>
+
+      <ul class="about">
+        <li>
+          I worked at a small marketing agency in my hometown with design and
+          WordPress websites;
+        </li>
+        <li>
+          I dropped everything to move to Sao Paulo city to work at an education
+          startup as a front-end developer with basic landing pages using HTML,
+          CSS, JavaScript, and Bootstrap;
+        </li>
+        <li>
+          I visited Silicon Valley and took some business courses with this
+          startup;
+        </li>
+        <li>
+          Still at this startup, I worked with sales, marketing, video editing,
+          and design;
+        </li>
+        <li>
+          I started working with React and Next.js, and helped this startup to
+          create a platform to broadcast their online events, which helped me to
+          become a partner;
+        </li>
+        <li>I also became a squad leader;</li>
+        <li>I learned English from scratch by studying online;</li>
+        <li>
+          I attended more than 60 tech events and meetups — and made a lot of
+          friends from the web development community.
+        </li>
+      </ul>
+
+      <p class="w-auto max-w-[60ch]">
+        In February 2022 I started working at Automatiq, an American company
+        based in New York. It has an automation platform for ticket brokers,
+        where they can do invoicing and pricing, for example, across multiple
+        vendors.
+      </p>
+
+      <p class="w-auto max-w-[60ch]">
+        Really excited for my next steps in this amazing world!
+      </p>
+    </article>
+
+    <article class="flex flex-col gap-8">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">Get in touch</h3>
+      </header>
+      <p>
+        Email me at <Link
+          href={`mailto:${presentation.mail}`}
+          label={presentation.mail}
+        /> or follow me via my social links.
+      </p>
+
+      <SocialLinks />
+    </article>
+  </main>
+</Layout>
