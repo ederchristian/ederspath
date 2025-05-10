@@ -6,7 +6,7 @@ import formatDate from "@/utils/formatDate";
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
 
-  return posts.map((post) => ({
+  return posts.map(post => ({
     params: { slug: post.slug },
     props: { post },
   }));
@@ -21,8 +21,8 @@ const { Content } = await post.render();
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
-  <main class="post mx-auto flex w-full max-w-prose flex-col gap-4">
-    <header role="presentation" class="pb-4 border-b border-s-slate-50">
+  <main class="post flex w-full flex-col gap-4">
+    <header role="presentation" class="border-b border-neutral-700 pb-4">
       <h1 class="text-lg text-white">
         {post.data.title} - {formatDate(post.data.publishedAt)}
       </h1>
